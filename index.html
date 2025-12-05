@@ -6,12 +6,63 @@
     <title>Sign Up Form</title>
 </head>
 <body>
+    <!-- SECTION 1: LEFT SIDE -->
     <div class="left">
         <div class="logo-container">
             <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin logo">
             <span>ODIN</span>
         </div>
         <span>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a></span>
+    </div>
+
+    <!-- SECTION 2: RIGHT SIDE -->
+    <div class="right">
+        <div class="intro">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up now to get started.<br><br>You know you want to.</p>
+        </div>
+
+        <div class="form-container">
+            <h2>Let's do this!</h2>
+
+            <form action="" method="post">
+                <div class="form-inputs">
+                    <div class="input-cell">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" placeholder="Thor" id="first-name" name="first_name" required>
+                    </div>
+                
+                    <div class="input-cell">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" placeholder="Odinson" id="last-name" name="last_name" required>
+                    </div>
+                
+                    <div class="input-cell">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                
+                    <div class="input-cell">
+                        <label for="phone-number">PHONE NUMBER (Optional)</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                
+                    <div class="input-cell">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                
+                    <div class="input-cell">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </div>
+
+                <div class="buttons-section">
+                    <button type="submit">Create Account</button>
+                    <span>Already have an account? <a href="">Log in</a></span>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>

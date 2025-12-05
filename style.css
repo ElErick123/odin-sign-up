@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left .logo-container {
+    background-color: rgba(0, 0, 0, 0.500);
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+.left .logo-container img {
+    height: 150px;
+}
+
+.left .logo-container span {
+    color: white;
+    font-family: "Norse-Bold";
+    font-size: 7rem;
+}
+
+.left > span, .left > span a {
+    color: rgba(255, 255, 255, 0.800);
+    margin-bottom: 10px;
+}
